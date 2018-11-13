@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.scorpium-repo" name="Scorpium Repo" version="0.0.1" provider-name="Scorpium">
+	<extension point="xbmc.addon.repository" name="Scorpium Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/scorpium/repository.scorpium-repo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/scorpium/repository.scorpium-repo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/scorpium/repository.scorpium-repo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Repositorio para testar meu primeiro addon.</summary>
+		<description lang="en">Este repo terá iptv, musicas e filmes.</description>
+		<genre>documentary,livetv,movies,music,radio,brazilian,french,uk,usa</genre>
+	</extension>
+</addon>
